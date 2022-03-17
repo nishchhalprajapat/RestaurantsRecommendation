@@ -10,13 +10,13 @@ import java.util.Scanner;
 public class CountDigit {
 	
 	/*
-	 * function name:factorialOfNumber
+	 * function name:getCountDigits
 	 * objective:this is a countAllDigits function created for count digit of a given number 
 	 * @param: input int number
 	 * @return : int value
 	 *  
 	  */
-	public int countAllDigits(int number) {
+	public int getCountDigits(int number) {
 		int countNumber=0;
 		while(number%10!=0) {
 			countNumber++;
@@ -35,7 +35,7 @@ public class CountDigit {
 		int number=scanner.nextInt();
 		CountDigit countDigit=new CountDigit();
 		//count digit function
-		int countNumber=countDigit.countAllDigits(number);
+		int countNumber=countDigit.getCountDigits(number);
 		System.out.println("digits in "+number+" is "+countNumber);
 		scanner.close();
 	}

@@ -6,15 +6,15 @@ import java.util.Scanner;
  * author:Nishchhal Prajapati 
  * Date 17/03/2022
  */
-public class IsNumberPrime {
+public class PrimeNumber {
 	/*
-	 * function name:isNumberPrimeOrNot
+	 * function name: getPrimeNumber
 	 * objective:this function is created for find given number is prime or not
 	 * @param: input int number
 	 * @return : boolean value
 	 * Date:17/03/2022
 	 */
-	boolean getIsNumberPrime(int number) {
+	boolean getPrimeNumber(int number) {
 		int isDivisibleBy=2;
 		boolean isNumberPrimeOrNot=true;
 		while(number>isDivisibleBy) {
@@ -35,9 +35,9 @@ public class IsNumberPrime {
 	public static void main(String args[]) {
 		Scanner scanner=new Scanner(System.in);
 		int number=scanner.nextInt();
-		IsNumberPrime isNumberPrime=new IsNumberPrime();
+		PrimeNumber isNumberPrime=new PrimeNumber();
 		//find prime number function
-		boolean isNumberPrimeOrNot=isNumberPrime.getIsNumberPrime(number);
+		boolean isNumberPrimeOrNot=isNumberPrime.getPrimeNumber(number);
 		if(isNumberPrimeOrNot) {
 			System.out.print(number+" is a prime number");
 		}else {

@@ -8,7 +8,7 @@ import java.util.Scanner;
 */
 public class FibonacciSeries {
 	/*
-	 * function name:factorialOfNumber
+	 * function name: getFibonacciSeries
 	 * objective:this is a FibonacciSeries function created for find Fibonacci of a given number 
 	 * @param: input int number
 	 * @return : int [] value
@@ -39,7 +39,7 @@ public class FibonacciSeries {
 		for(int iterator=0;iterator<fibonacci.length-1;iterator++ ) {
 			System.out.print(fibonacci[iterator]+",");
 		}
-	scanner.close();
+		scanner.close();
 	}
 }
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Factorial {
 	/*
-	 * function name:factorialOfNumber
+	 * function name:getFactorial
 	 * objective:this is a factorialOfNumber function created for find factorial of a given number 
 	 * @param: input int number
 	 * @return : int value
