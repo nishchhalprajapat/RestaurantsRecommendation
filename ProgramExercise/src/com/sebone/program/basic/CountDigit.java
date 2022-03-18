@@ -18,7 +18,10 @@ public class CountDigit {
 	  */
 	public int getCountDigits(int number) {
 		int countNumber=0;
-		while(number%10!=0) {
+		if(number==0) {
+			return 1;
+		}
+		while(number>0) {
 			countNumber++;
 			number=number/10;
 		}

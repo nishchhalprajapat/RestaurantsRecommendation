@@ -14,7 +14,7 @@ public class PrimeNumber {
 	 * @return : boolean value
 	 * Date:17/03/2022
 	 */
-	boolean getPrimeNumber(int number) {
+	public boolean getPrimeNumber(int number) {
 		int isDivisibleBy=2;
 		boolean isNumberPrimeOrNot=true;
 		while(number>isDivisibleBy) {

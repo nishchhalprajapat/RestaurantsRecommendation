@@ -15,7 +15,7 @@ public class FibonacciSeries {
 	 * Date:17/03/2022
 	 */
 	public int [] getFibonacciSeries(int number) {
-		int [] fibonacci=new int[number+2];
+		int [] fibonacci=new int[number+1];
 		fibonacci[0]=0;
 		fibonacci[1]=1;
 		for(int iterator=2;iterator<=number;iterator++) {
@@ -36,7 +36,7 @@ public class FibonacciSeries {
 		//print fibonacci series
 		int []fibonacci=fibonacciseries.getFibonacciSeries(number);
 		System.out.println("fibonacci of a "+number+" is :");
-		for(int iterator=0;iterator<fibonacci.length-1;iterator++ ) {
+		for(int iterator=0;iterator<fibonacci.length;iterator++ ) {
 			System.out.print(fibonacci[iterator]+",");
 		}
 		scanner.close();
