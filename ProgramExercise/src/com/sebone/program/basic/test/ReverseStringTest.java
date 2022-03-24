@@ -12,6 +12,7 @@ class ReverseStringTest {
 	void test() {
 		ReverseString reverseString=new ReverseString();
 		assertEquals("hsiN", reverseString.getreverseString("Nish"));
+		assertEquals("21HsIn", reverseString.getreverseString("nIsH12"));
 	}
 
 }
